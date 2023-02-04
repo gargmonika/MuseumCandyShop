@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  background-color: #ffcce1;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  /* font-size: medium; */
+}
+
+/* navigation Bar */
+.nav-bg{
+    background-color: rgb(238, 189, 238);
+    transition: background-color 500ms;
+}
+.navbar-brand{
+    font-size: 1.6rem;
+
+    
+}
+.nav-link {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+.nav-link:hover {
+  color: rgb(209, 60, 60);
+}
+
+/* Change the color in the stroke property of the image data */
+.navbar-toggler-icon .custome-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  border: none !important;
+  outline: none;
+}
+
+/* section for text and images */
+/* #hand-candy{
+    width:auto;
+    height: 100%;
+} */
+
+
+/* heading group */
+.heading-group p {
+    font-size: 2.4rem;
+    font-weight: 100;
+}
+
+/* responsiveness for heading group */
+@media (min-width:920px) and (max-width:1200px){
+    .heading-group p {
+        font-size: 1.9rem;
+        font-weight: 100;
+    }
+}
+@media (max-width:920px){
+    .heading-group p {
+        font-size: 1.7rem;
+        font-weight: 100;
+    }
+}
+
+/* content description */
+.content h1, .content p{
+    font-weight: 100;
+    color: #dd3545;
+}
+
+@media(max-width:850px){
+    .content h1{
+        font-size: 1.9rem;
+
+    }
+}
